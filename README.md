@@ -1,4 +1,4 @@
-# paddle-webhooks-express
+# Paddle-webhooks-express
 
 [Paddle.com](https://Paddle.com) [Webhooks](https://Paddle.com) for [Express](http://expressjs.com/)
 
