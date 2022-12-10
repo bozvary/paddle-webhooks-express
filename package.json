@@ -1,14 +1,23 @@
 {
   "name": "paddle-webhooks-express",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "Paddle.com WebhooksManager for Express",
   "main": "./lib/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bozvary/paddle-webhooks-express.git"
+    "url": "https://github.com/bozvary/paddle-webhooks-express.git"
+  },
+  "release": {
+    "branches": [
+      "master"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "Paddle.com",
@@ -18,7 +27,7 @@
     "middleware",
     "payments"
   ],
-   "author": {
+  "author": {
     "name": "Bence Bozvary (XSAW)",
     "email": "opensource@bozvary.com",
     "url": "https://bozvary.com"
@@ -27,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/bozvary/paddle-webhooks-express/issues"
   },
-  "homepage": "https://github.com/bozvary/paddle-webhooks-express#readme"
+  "homepage": "https://github.com/bozvary/paddle-webhooks-express#readme",
+  "devDependencies": {
+    "semantic-release": "^19.0.5"
+  }
 }
