@@ -1,6 +1,6 @@
 {
   "name": "paddle-webhooks-express",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Paddle.com WebhooksManager for Express",
   "main": "./lib/",
   "scripts": {
