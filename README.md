@@ -13,6 +13,14 @@ Install via [npm](https://www.npmjs.com/package/paddle-webhooks-express)
 
 TODO:
 
+
+## Changelog 0.2.0
+
+  - Add 'await' for WebhooksManager.
+
+  - The WebhooksManager implementation must return a Promise.
+
+
 ## Roadmap
 
 Check that webhooks are genuinely sent by Paddle,[Validate p_signature](https://developer.paddle.com/webhook-reference/ZG9jOjI1MzUzOTg2-verifying-webhooks)
